@@ -53,6 +53,8 @@ body {
 
 .icon-image {
   padding-right: 5rem;
+  width: 200px;
+  height: 140px;
 
 }
 
@@ -134,6 +136,7 @@ body {
 /* SHOWCASE HOBBIES */
 #hobbies {
   padding: 5.5rem 6rem 5.5rem;
+  background-color: a3744d;
 }
 
 .image-hobbies {
@@ -144,8 +147,8 @@ body {
 .hobbies-title {
   font-family: 'Montserrat-Black', sans-serif;
   color:  white;
-  font-size: 5rem;
-  line-height: 2.5;
+  font-size: 2rem;
+ 
 }
 
 /* CONTACT FORM */
@@ -199,7 +202,6 @@ input[type=submit]:hover {
   padding-right: 10rem;
 
 }
-
 .col-20 {
   float: left;
   width: 20%;
@@ -254,5 +256,15 @@ input[type=submit]:hover {
 
 #footer {
   background-color: #a3744d;
-  padding: 5.5rem 0 0 5.5rem;
+  padding: 5.5rem 6rem;
+  margin-left: 20rem;
 }
+
+.container-footer {
+  float: left;
+  width: 50%;
+  margin: 6px 0;
+ 
+  
+}
+  
