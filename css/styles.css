@@ -1,0 +1,270 @@
+
+body {
+    font-family: "Montserrat";
+    background-color: #a3744d;
+  }
+  
+  /* SIDE-NAVBAR */
+  .side-navbar {
+    width: 180px;
+    height: 100%;
+    position: fixed;
+    padding-left: 1rem;
+    background-color: #7d400e;
+    transition: 0.5s;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo-icon {
+    width: 100%;
+  }
+  
+  .nav-link:active,
+  .nav-link:focus,
+  .nav-link:hover {
+    background-color: #ffffff26;
+  }
+  
+  /* BIG TITLE STYLING */
+  .row {
+    padding-left: 15rem;
+  }
+  
+  #title {
+    background-color: #ffffff;
+  }
+  .hello {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  
+  .container-fluid {
+    padding: 3% 15%;
+  }
+  
+  .title-image {
+    width:100%;
+    transform:rotate(5deg);  
+    padding: 3% 15%;
+  }
+  
+  .icon-image {
+    
+    width: 150px;
+    height: 150px;
+  
+  }
+  
+  
+  /* BUTTON STYLING */
+  .button1{
+    background-color: #a776b1;
+    border-radius: 12px;
+    border: none;
+    padding: 14px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.3em;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1:hover {
+    background-color:#cc742c;
+    color: white;
+  }
+  
+  .button2 {
+    background-color:#cc742c;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    padding: 14px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.3em;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button2:hover {
+    background-color: #a776b1;
+    color: black;
+  }
+  
+  .container {
+    padding-left: 5rem;
+  }
+  
+  .my-container {
+    transition: 0.4s;
+  }
+  .active-nav {
+    margin-left: 0;
+  }
+  
+  /* for main section */
+  .active-cont {
+    margin-left: 180px;
+  }
+  #menu-btn {
+    background-color: #100901;
+    color: #fff;
+    margin-left: -62px;
+  }
+  
+  #brown-space {
+    background-color:#7d400e;
+    padding-top: 3rem;
+  }
+  
+  /* SKILLS */
+  
+  #skill {
+    background-color: #a3744d;
+    padding: 5.5rem 6rem 5.5rem;
+  }
+  
+  
+  /* SHOWCASE HOBBIES */
+  #hobbies {
+    padding: 5.5rem 6rem 5.5rem;
+    background-color: a3744d;
+  }
+  
+  .image-hobbies {
+    width:100%;
+    padding: 3% 15%;
+  }
+  
+  .hobbies-title {
+    font-family: 'Montserrat-Black', sans-serif;
+    color:  white;
+    font-size: 2rem;
+   
+  }
+  
+  /* CONTACT FORM */
+  
+  #contact-form {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color:#a776b1;
+    color: white;
+    font-size: 1.3rem;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color:#7d400e;
+  }
+  
+  .container-form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+  
+  .container1 {
+    border-radius: 5px;
+    background-color:#7d400e;
+    padding-left: 1rem;
+  }
+  
+  .col {
+    padding-right: 10rem;
+  
+  }
+  .col-20 {
+    float: left;
+    width: 20%;
+    margin-top: 6px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-50 {
+    float: left;
+    width: 50%;
+    margin: 6px 0 5rem;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  .col-100 {
+    align-items: center;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .submit-button {
+    width: 75%;
+  
+  }
+  
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  
+  
+  #footer {
+    background-color: #a3744d;
+    padding: 5.5rem 6rem;
+    margin-left: 20rem;
+  }
+  
+  .container-footer {
+    float: left;
+    width: 50%;
+    margin: 6px 0;
+   
+    
+  }
+    
